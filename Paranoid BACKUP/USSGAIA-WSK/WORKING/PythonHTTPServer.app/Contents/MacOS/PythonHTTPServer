@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+cd ~/Dev/CDERepos/USSGAIA/
+python -m SimpleHTTPServer 8080 &> /dev/null &
+open http://localhost:8080/
