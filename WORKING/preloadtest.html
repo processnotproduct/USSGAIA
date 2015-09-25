@@ -1,0 +1,61 @@
+<html>
+<head>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<style type="text/css">
+.rocket {
+  position: absolute ;
+  top: 50%;
+  left: 50%;
+  width: 45px;
+  height: 45px;
+  margin: -15px 0 0 -13px;
+  opacity: 0;
+  -webkit-animation: takeoff 2s ease-in;
+  -moz-animation: takeoff 2s ease-in;
+  -ms-animation: takeoff 2s ease-in;
+  -o-animation: takeoff 2s ease-in;
+  animation: takeoff 2s ease-in;
+}
+
+@-webkit-keyframes takeoff {
+  0% {
+    opacity: 1;
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  25% {
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: translate(0px, -600px);
+    -moz-transform: translate(0px, -600px);
+    -ms-transform: translate(0px, -600px);
+    -o-transform: translate(0px, -600px);
+    transform: translate(0px, -600px);
+  }
+}
+
+.loader {
+  width: 65px;
+	height: 65px;
+}
+	</style>
+</head>
+<body>
+<!-- Preloader -->
+	<div class="page-loader">
+			<img class="rocket" src="assets/images/rocket.svg">
+			<div class="loader">Loading...</div>
+	</div>
+</body>
+</html>

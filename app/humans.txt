@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Tyson Kemp -- Developer, 3D Artist -- plus.google.com/+tysonkemp
+
+# THANKS
+
+  Bill Kemp, Ted Maziejka
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3, JS, 3D, Video,

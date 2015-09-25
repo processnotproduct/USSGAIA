@@ -1,0 +1,10 @@
+﻿var image1 = new Image()
+image1.src = "images/USSGAIA_slideshow_1.jpg"
+var image2 = new Image()
+image2.src = "images/USSGAIA_slideshow_2.jpg"
+var image3 = new Image()
+image3.src = "images/USSGAIA_slideshow_3.jpg"
+var image4 = new Image()
+image4.src = "images/USSGAIA_slideshow_4.jpg"
+var image5 = new Image()
+image5.src = "images/USSGAIA_slideshow_5.jpg"
